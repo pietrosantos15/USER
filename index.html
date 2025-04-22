@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PhotoGym</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="main-login">
+    <div class="parteesquerda">
+      <h1>PhotoGym<br>Sua academia preferida</h1>
+      <img src="fitness-tracker-animate (1).svg" class="imagem"/>
+    </div>
+    <div class="partedireita">
+      <div class="card">
+
+        <div class="inserircpf">
+          <label for="cpf" class="label">CPF</label>
+          <input type="text" name="CPF" id="cpf" maxlength="11" placeholder="Digite seu CPF" readonly>
+          <div id="res" class="resposta"></div>
+        </div>
+
+        <div class="teclado">
+          <button onclick="addNum('1')">1</button>
+          <button onclick="addNum('2')">2</button>
+          <button onclick="addNum('3')">3</button>
+          <button onclick="addNum('4')">4</button>
+          <button onclick="addNum('5')">5</button>
+          <button onclick="addNum('6')">6</button>
+          <button onclick="addNum('7')">7</button>
+          <button onclick="addNum('8')">8</button>
+          <button onclick="addNum('9')">9</button>
+          <button onclick="delNum()">⌫</button>
+          <button onclick="addNum('0')">0</button>
+          <button onclick="limpar()">C</button>
+        </div>
+
+        <button class="btn-login" id="entrar">Login</button>
+      </div>
+    </div>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
