@@ -1,4 +1,4 @@
-const apiUrlVerificarCPF = 'http://127.0.0.1:5000/clientes/verificar';
+const apiUrlVerificarCPF = 'https://back-seven-mauve.vercel.app/clientes/verificar';
 
 document.addEventListener('DOMContentLoaded', function () {
     const entrarButton = document.getElementById('entrar');
