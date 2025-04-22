@@ -38,7 +38,7 @@ async function verificarCPF() {
         }
 
         if (data.status === 'ativo') {
-            res.innerHTML = '✔️ ${data.nome}, Acesso Permitido! Bom Treino!';
+            res.innerHTML = '✔️ Acesso Permitido! Bom Treino!';
             
         } else if (data.status === 'bloqueado') {
             res.innerHTML = '🚫 Acesso Negado! Favor comparecer na recepção!';
