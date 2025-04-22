@@ -11,7 +11,7 @@ async function verificarCPF() {
     const cpf = cpfInput.value.trim();
 
     if (!cpf) {
-        alert("Por favor, digite o CPF.");
+        res.innerHTML = 'Por favor, digite o CPF.';
         return;
     }
 
