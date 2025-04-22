@@ -105,6 +105,11 @@ body {
     .card{
         width: 85%;
     }
+
+    .parteesquerda h1 {
+        display:none;
+        margin-left: 10px;
+    }
 }
 
 @media only screen and (max-width: 600px){
@@ -113,6 +118,7 @@ body {
     }
     .parteesquerda h1 {
         display:none;
+        margin-left: 10px;
     }
     .parteesquerda {
         width: 100%;
